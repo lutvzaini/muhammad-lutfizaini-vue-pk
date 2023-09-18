@@ -10,9 +10,10 @@ import HelloWorld from './components/HelloWorld.vue'
 
       <HelloWorld msg="Fakta Kucing !" />
 
-      <nav>
+      <nav class="nav nav-tabs">
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/kucing">Kucing</RouterLink>
+        <RouterLink to="/anjing">Anjing</RouterLink>
       </nav>
     </div>
   </header>
